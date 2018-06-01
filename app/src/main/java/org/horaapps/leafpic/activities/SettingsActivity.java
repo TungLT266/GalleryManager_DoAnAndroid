@@ -44,7 +44,7 @@ public class SettingsActivity extends ThemedActivity {
     @BindView(R.id.option_include_video) SettingWithSwitchView optionIncludeVideo;
     @BindView(R.id.option_swipe_direction) SettingWithSwitchView optionSwipeDirection;
 
-    @BindView(R.id.option_fab) SettingWithSwitchView optionShowFab;
+//    @BindView(R.id.option_fab) SettingWithSwitchView optionShowFab;
     @BindView(R.id.option_statusbar) SettingWithSwitchView optionStatusbar;
     @BindView(R.id.option_colored_navbar) SettingWithSwitchView optionColoredNavbar;
 
@@ -218,10 +218,10 @@ public class SettingsActivity extends ThemedActivity {
         updateUiElements();
     }
 
-    @OnClick(R.id.ll_white_list)
-    public void onWhiteListClicked(View view) {
-        startActivity(new Intent(getApplicationContext(), BlackWhiteListActivity.class));
-    }
+//    @OnClick(R.id.ll_white_list)
+//    public void onWhiteListClicked(View view) {
+//        startActivity(new Intent(getApplicationContext(), BlackWhiteListActivity.class));
+//    }
 
     @OnClick(R.id.ll_custom_thirdAct)
     public void onCustomThirdActClicked(View view) {

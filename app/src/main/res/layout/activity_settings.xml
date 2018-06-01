@@ -69,33 +69,33 @@
                         app:settingTitle="@string/multi_column"/>
 
                     <!-- EXCLUDED ALBUM-->
-                    <org.horaapps.leafpic.views.SettingBasic
-                        android:id="@+id/ll_white_list"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:settingCaption="@string/manage_your_folders_sub"
-                        app:settingIcon="gmd-burst-mode"
-                        app:settingTitle="@string/manage_your_folders"/>
+                    <!--<org.horaapps.leafpic.views.SettingBasic-->
+                        <!--android:id="@+id/ll_white_list"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--app:settingCaption="@string/manage_your_folders_sub"-->
+                        <!--app:settingIcon="gmd-burst-mode"-->
+                        <!--app:settingTitle="@string/manage_your_folders"/>-->
 
                     <!-- FAB OPTIONS -->
-                    <org.horaapps.leafpic.views.SettingWithSwitchView
-                        android:id="@+id/option_fab"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:settingCaption="@string/fab_options_sub"
-                        app:settingIcon="gmd-add-circle"
-                        app:settingPreferenceKey="@string/preference_show_fab"
-                        app:settingTitle="@string/fab_options"/>
+                    <!--<org.horaapps.leafpic.views.SettingWithSwitchView-->
+                        <!--android:id="@+id/option_fab"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--app:settingCaption="@string/fab_options_sub"-->
+                        <!--app:settingIcon="gmd-add-circle"-->
+                        <!--app:settingPreferenceKey="@string/preference_show_fab"-->
+                        <!--app:settingTitle="@string/fab_options"/>-->
 
                     <!-- TIPS -->
-                    <org.horaapps.leafpic.views.SettingWithSwitchView
-                        android:id="@+id/option_tips"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:settingCaption="@string/option_show_tips_sub"
-                        app:settingIcon="gmd-info"
-                        app:settingPreferenceKey="@string/preference_show_tips"
-                        app:settingTitle="@string/option_show_tips"/>
+                    <!--<org.horaapps.leafpic.views.SettingWithSwitchView-->
+                        <!--android:id="@+id/option_tips"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--app:settingCaption="@string/option_show_tips_sub"-->
+                        <!--app:settingIcon="gmd-info"-->
+                        <!--app:settingPreferenceKey="@string/preference_show_tips"-->
+                        <!--app:settingTitle="@string/option_show_tips"/>-->
                 </LinearLayout>
             </org.horaapps.leafpic.views.themeable.ThemedCardView>
 

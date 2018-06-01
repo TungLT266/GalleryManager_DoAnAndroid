@@ -63,7 +63,7 @@ import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.Item
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_ABOUT;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_ALL_ALBUMS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_ALL_MEDIA;
-import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_DONATE;
+//import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_DONATE;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_HIDDEN_FOLDERS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_SETTINGS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_TIMELINE;
@@ -588,9 +588,9 @@ public class MainActivity extends SharedMediaActivity implements
                 Toast.makeText(MainActivity.this, "Coming Soon!", Toast.LENGTH_SHORT).show();
                 break;
 
-            case NAVIGATION_ITEM_DONATE:
-                DonateActivity.startActivity(this);
-                break;
+//            case NAVIGATION_ITEM_DONATE:
+//                DonateActivity.startActivity(this);
+//                break;
 
             case NavigationDrawer.NAVIGATION_ITEM_AFFIX:
                 Intent i = new Intent(getBaseContext(), AffixActivity.class);

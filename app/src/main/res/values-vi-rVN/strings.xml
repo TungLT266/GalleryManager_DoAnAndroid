@@ -199,7 +199,7 @@
 
   <string name="max_brightness">Độ sáng cao</string>
   <string name="max_brightness_sub">Sử dụng độ sáng tối đa khi xem phương tiện</string>
-  <string name="picture_orientation">Buộc sử dụng gia tốc kế</string>
+  <string name="picture_orientation">Sử dụng cảm biến xoay</string>
   <string name="picture_orientation_sub">Xoay ảnh sử dụng cảm biến</string>
   <string name="apply_theme">Áp dụng chủ đề</string>
   <string name="apply_theme_sub">Áp dụng tùy chỉnh màu sắc trên trình xem ảnh.</string>

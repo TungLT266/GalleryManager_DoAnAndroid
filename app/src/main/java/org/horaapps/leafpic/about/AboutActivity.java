@@ -171,10 +171,6 @@ public class AboutActivity extends ThemedActivity implements ContactListener {
 
         ArrayList<Contributor> contributors = new ArrayList<>(1);
 
-        /* Tri */
-        Contributor Tri = new Contributor("Nguyễn Minh Trí", "1420142", R.drawable.tri_profile);
-        contributors.add(Tri);
-
         /* Truong */
         Contributor Truong = new Contributor("Dương Nhật Trường", "1420261", R.drawable.truong_profile);
         contributors.add(Truong);

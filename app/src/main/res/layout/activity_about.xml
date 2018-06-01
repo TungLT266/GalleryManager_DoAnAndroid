@@ -126,6 +126,17 @@
                         app:name="Lê Thanh Tùng"
                         app:role="1420266" />
 
+                    <org.horaapps.leafpic.about.AboutCreator
+                        android:id="@+id/about_developer_gilbert"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/small_spacing"
+                        app:description="@string/about_author_gilbert_description"
+                        app:displayImage="@drawable/tri_profile"
+                        app:headerImage="@drawable/gilbert_header"
+                        app:name="Nguyễn Minh Trí"
+                        app:role="1420142" />
+
                 </LinearLayout>
             </org.horaapps.liz.ui.ThemedCardView>
 

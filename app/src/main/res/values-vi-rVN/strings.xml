@@ -263,9 +263,7 @@
   <string name="about_library_license_sub">Kiểm tra thư viện của bên thứ ba được sử dụng.</string>
 
   <string name="about_authors">Tác giả</string>
-  <string name="about_author_donald_description">
-        Tôi 23 tuổi. Tôi là một nhà phát triển phần mềm trẻ, tôi thích CS nói chung, và cụ thể hơn, tôi thích học và làm việc với Linux và Android.
-    </string>
+  <string name="about_author_donald_description"></string>
   <string name="about_author_gilbert_description"></string>
   <string name="about_developer_calvin_description"></string>
   <string name="about_googleplus" translatable="false">Google+</string>
@@ -311,8 +309,8 @@
   <string name="location">Vị trí</string>
 
   <!--DRAWER ITEMS -->
-  <string name="local_folder">Thư mục cục bộ</string>
-  <string name="all_media">Tất cả phương tiện</string>
+  <string name="local_folder">Thư mục</string>
+  <string name="all_media">Tất cả</string>
   <string name="hidden_folder">Thư mục ẩn</string>
   <string name="tags">Thẻ</string>
   <string name="timeline">Dòng thời gian</string>
@@ -389,7 +387,7 @@
   <string name="errors">Lỗi</string>
   <string name="waring_share_multiple_file_types">Có thể có sự cố khi chia sẻ nhiều loại tệp.</string>
   <string name="creators">Người tạo</string>
-  <string name="major_contributors">Thành viên nhóm 3</string>
+  <string name="major_contributors">Người đóng góp chính</string>
   <string name="toolbar_selection_count" translatable="false">%1$d of %2$d</string>
   <string name="delete_bottom_sheet_title">Đang dọn dẹp bộ nhớ…</string>
 

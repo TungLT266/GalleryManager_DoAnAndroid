@@ -67,7 +67,7 @@ import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVI
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_HIDDEN_FOLDERS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_SETTINGS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_TIMELINE;
-import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_WALLPAPERS;
+//import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_WALLPAPERS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NavigationItem;
 
 /**
@@ -584,9 +584,9 @@ public class MainActivity extends SharedMediaActivity implements
                 }
                 break;
 
-            case NAVIGATION_ITEM_WALLPAPERS:
-                Toast.makeText(MainActivity.this, "Coming Soon!", Toast.LENGTH_SHORT).show();
-                break;
+//            case NAVIGATION_ITEM_WALLPAPERS:
+//                Toast.makeText(MainActivity.this, "Coming Soon!", Toast.LENGTH_SHORT).show();
+//                break;
 
 //            case NAVIGATION_ITEM_DONATE:
 //                DonateActivity.startActivity(this);

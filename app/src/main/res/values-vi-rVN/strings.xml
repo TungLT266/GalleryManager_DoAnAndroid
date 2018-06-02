@@ -186,7 +186,7 @@
   <string name="enable_timeline_title">Bật Dòng thời gian</string>
   <string name="enable_timeline_desc">Bật chế độ xem Dòng thời gian cho phương tiện. Thử nghiệm.</string>
 
-  <string name="media_viewer">Trình xem phương tiện</string>
+  <string name="media_viewer">Trình xem ảnh</string>
   <string name="media_viewer_theme">Chủ đề trình xem phương tiện</string>
   <string name="custom_3thAct">Trình xem phương tiện</string>
   <string name="custom_3thAct_sub">Áp dụng chủ đề trên trình xem hình ảnh.</string>
@@ -214,11 +214,11 @@
   <string name="video_instant_play_sub">Cho phép bạn phát video ngay lập tức, bỏ qua bản xem trước.</string>
 
   <string name="theme">Chủ đề</string>
-  <string name="primary_color">Màu chính</string>
+  <string name="primary_color">Màu giao diện</string>
   <string name="primary_color_sub">Màu sắc chính được sử dụng trong giao diện.</string>
-  <string name="accent_color">Accent Color</string>
+  <string name="accent_color">Màu chữ đề mục</string>
   <string name="accent_color_sub">Màu phụ được sử dụng để tô màu các widget và chi tiết giao diện người dùng.</string>
-  <string name="base_theme">Chủ đề cơ bản</string>
+  <string name="base_theme">Chủ đề</string>
   <string name="base_theme_sub">Chọn chủ đề cơ sở.</string>
   <string name="white">Sáng</string>
   <string name="dark">Tối</string>

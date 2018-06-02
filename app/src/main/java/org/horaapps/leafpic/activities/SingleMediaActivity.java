@@ -81,9 +81,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Created by dnld on 18/02/16.
- */
 @SuppressWarnings("ResourceAsColor")
 public class SingleMediaActivity extends SharedMediaActivity implements BaseMediaFragment.MediaTapListener {
 
@@ -674,17 +671,17 @@ public class SingleMediaActivity extends SharedMediaActivity implements BaseMedi
                 startActivity(paletteIntent);
                 break;
 
-            case R.id.action_print:
-                PrintHelper photoPrinter = new PrintHelper(this);
-                photoPrinter.setScaleMode(PrintHelper.SCALE_MODE_FIT);
-                try (InputStream in = getContentResolver().openInputStream(getCurrentMedia().getUri())) {
-                    Bitmap bitmap = BitmapFactory.decodeStream(in);
-                    photoPrinter.printBitmap(String.format("print_%s", getCurrentMedia().getDisplayPath() ), bitmap);
-                } catch (Exception e) {
-                    Log.e("print", String.format("unable to print %s", getCurrentMedia().getUri()), e);
-                    Toast.makeText(getApplicationContext(), R.string.print_error, Toast.LENGTH_SHORT).show();
-                }
-                break;
+//            case R.id.action_print:
+//                PrintHelper photoPrinter = new PrintHelper(this);
+//                photoPrinter.setScaleMode(PrintHelper.SCALE_MODE_FIT);
+//                try (InputStream in = getContentResolver().openInputStream(getCurrentMedia().getUri())) {
+//                    Bitmap bitmap = BitmapFactory.decodeStream(in);
+//                    photoPrinter.printBitmap(String.format("print_%s", getCurrentMedia().getDisplayPath() ), bitmap);
+//                } catch (Exception e) {
+//                    Log.e("print", String.format("unable to print %s", getCurrentMedia().getUri()), e);
+//                    Toast.makeText(getApplicationContext(), R.string.print_error, Toast.LENGTH_SHORT).show();
+//                }
+//                break;
 
             case R.id.slide_show:
                 isSlideShowOn = !isSlideShowOn;

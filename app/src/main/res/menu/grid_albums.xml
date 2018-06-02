@@ -53,10 +53,10 @@
             android:title="@string/delete"
             app:showAsAction="ifRoom" />
 
-        <item
-            android:id="@+id/exclude"
-            android:title="@string/exclude"
-            app:showAsAction="never" />
+        <!--<item-->
+            <!--android:id="@+id/exclude"-->
+            <!--android:title="@string/exclude"-->
+            <!--app:showAsAction="never" />-->
 
         <item
             android:id="@+id/shortcut"

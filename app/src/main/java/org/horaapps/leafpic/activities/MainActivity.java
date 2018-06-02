@@ -370,7 +370,7 @@ public class MainActivity extends SharedMediaActivity implements
         setNavBarColor();
 
         fab.setBackgroundTintList(ColorStateList.valueOf(getAccentColor()));
-        fab.setVisibility(Hawk.get(getString(R.string.preference_show_fab), false) ? View.VISIBLE : View.GONE);
+        fab.setVisibility(Hawk.get(getString(R.string.preference_show_fab), true) ? View.VISIBLE : View.GONE);
         mainLayout.setBackgroundColor(getBackgroundColor());
 
 //        setScrollViewColor(navigationDrawerView);

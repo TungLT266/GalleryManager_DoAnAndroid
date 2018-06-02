@@ -20,11 +20,6 @@ import static org.horaapps.liz.Theme.AMOLED;
 import static org.horaapps.liz.Theme.DARK;
 import static org.horaapps.liz.Theme.LIGHT;
 
-
-/**
- * Created by dnld on 12/9/16.
- */
-
 public class ColorsSetting extends ThemedSetting {
 
     public ColorsSetting(ThemedActivity activity) {

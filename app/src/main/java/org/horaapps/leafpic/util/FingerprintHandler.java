@@ -35,10 +35,6 @@ import javax.crypto.SecretKey;
 import static android.content.Context.FINGERPRINT_SERVICE;
 import static android.content.Context.KEYGUARD_SERVICE;
 
-/**
- * Created by francesco on 29/11/16.
- */
-
 @RequiresApi(api = Build.VERSION_CODES.M)
 public class FingerprintHandler extends FingerprintManager.AuthenticationCallback {
 

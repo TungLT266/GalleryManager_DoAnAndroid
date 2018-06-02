@@ -16,119 +16,48 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/**
- * 手势图片控件
- *
- * @author clifford
- */
 public class PinchImageView extends ImageView {
 
 
     ////////////////////////////////配置参数////////////////////////////////
 
-    /**
-     * 图片缩放动画时间
-     */
     public static final int SCALE_ANIMATOR_DURATION = 200;
 
-    /**
-     * 惯性动画衰减参数
-     */
     public static final float FLING_DAMPING_FACTOR = 0.9f;
 
-    /**
-     * 图片最大放大比例
-     */
     private static final float MAX_SCALE = 4f;
 
 
     ////////////////////////////////监听器////////////////////////////////
 
-    /**
-     * 外界点击事件
-     *
-     * @see #setOnClickListener(OnClickListener)
-     */
     private OnClickListener mOnClickListener;
 
-    /**
-     * 外界长按事件
-     *
-     * @see #setOnLongClickListener(OnLongClickListener)
-     */
     private OnLongClickListener mOnLongClickListener;
 
     @Override
     public void setOnClickListener(OnClickListener l) {
-        //默认的click会在任何点击情况下都会触发，所以搞成自己的
         mOnClickListener = l;
     }
 
     @Override
     public void setOnLongClickListener(OnLongClickListener l) {
-        //默认的long click会在任何长按情况下都会触发，所以搞成自己的
         mOnLongClickListener = l;
     }
 
 
-    ////////////////////////////////公共状态获取////////////////////////////////
 
-    /**
-     * 手势状态：自由状态
-     *
-     * @see #getPinchMode()
-     */
     public static final int PINCH_MODE_FREE = 0;
 
-    /**
-     * 手势状态：单指滚动状态
-     *
-     * @see #getPinchMode()
-     */
     public static final int PINCH_MODE_SCROLL = 1;
 
-    /**
-     * 手势状态：双指缩放状态
-     *
-     * @see #getPinchMode()
-     */
     public static final int PINCH_MODE_SCALE = 2;
 
-    /**
-     * 外层变换矩阵，如果是单位矩阵，那么图片是fit center状态
-     *
-     * @see #getOuterMatrix(Matrix)
-     * @see #outerMatrixTo(Matrix, long)
-     */
     private Matrix mOuterMatrix = new Matrix();
 
-    /**
-     * 矩形遮罩
-     *
-     * @see #getMask()
-     * @see #zoomMaskTo(RectF, long)
-     */
     private RectF mMask;
 
-    /**
-     * 当前手势状态
-     *
-     * @see #getPinchMode()
-     * @see #PINCH_MODE_FREE
-     * @see #PINCH_MODE_SCROLL
-     * @see #PINCH_MODE_SCALE
-     */
     private int mPinchMode = PINCH_MODE_FREE;
 
-    /**
-     * 获取外部变换矩阵.
-     * <p>
-     * 外部变换矩阵记录了图片手势操作的最终结果,是相对于图片fit center状态的变换.
-     * 默认值为单位矩阵,此时图片为fit center状态.
-     *
-     * @param matrix 用于填充结果的对象
-     * @return 如果传了matrix参数则将matrix填充后返回, 否则new一个填充返回
-     */
     public Matrix getOuterMatrix(Matrix matrix) {
         if (matrix == null) {
             matrix = new Matrix(mOuterMatrix);
@@ -138,15 +67,6 @@ public class PinchImageView extends ImageView {
         return matrix;
     }
 
-    /**
-     * 获取内部变换矩阵.
-     * <p>
-     * 内部变换矩阵是原图到fit center状态的变换,当原图尺寸变化或者控件大小变化都会发生改变
-     * 当尚未布局或者原图不存在时,其值无意义.所以在调用前需要确保前置条件有效,否则将影响计算结果.
-     *
-     * @param matrix 用于填充结果的对象
-     * @return 如果传了matrix参数则将matrix填充后返回, 否则new一个填充返回
-     */
     public Matrix getInnerMatrix(Matrix matrix) {
         if (matrix == null) {
             matrix = new Matrix();

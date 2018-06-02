@@ -20,9 +20,6 @@ import org.horaapps.liz.ui.ThemedIcon;
 
 import java.security.MessageDigest;
 
-/**
- * Created by Jibo on 06/05/2016.
- */
 public class Security {
 
     public static void setPasswordOnDelete(boolean passwordOnDelete) {

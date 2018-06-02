@@ -18,9 +18,6 @@ import org.horaapps.liz.ui.ThemedIcon;
 
 import uz.shift.colorpicker.LineColorPicker;
 
-/**
- * Created by dnld on 12/9/16.
- */
 
 public class SinglePhotoSetting extends ThemedSetting {
 

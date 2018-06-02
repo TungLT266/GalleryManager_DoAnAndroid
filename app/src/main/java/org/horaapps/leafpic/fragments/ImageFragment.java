@@ -18,9 +18,6 @@ import org.horaapps.leafpic.util.BitmapUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * A Media Fragment for showing an Image (static)
- */
 public class ImageFragment extends BaseMediaFragment {
 
     @BindView(R.id.subsampling_view) SubsamplingScaleImageView imageView;

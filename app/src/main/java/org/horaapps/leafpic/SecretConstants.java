@@ -6,10 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * Created by dnld on 31/07/16.
- */
-
 public class SecretConstants {
 
   private static String base64EncodedPublicKey;

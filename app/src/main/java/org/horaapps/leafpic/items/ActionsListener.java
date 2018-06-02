@@ -1,8 +1,5 @@
 package org.horaapps.leafpic.items;
 
-/**
- * Created by dnld on 10/03/18.
- */
 
 /**
  * Interface for listeners to be alerted when this entity wants to

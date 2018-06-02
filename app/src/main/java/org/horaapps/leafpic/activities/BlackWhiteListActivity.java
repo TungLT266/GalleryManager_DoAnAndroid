@@ -36,9 +36,6 @@ import jp.wasabeef.recyclerview.animators.LandingAnimator;
 
 import static org.horaapps.leafpic.data.MediaHelper.scanFile;
 
-/**
- * Created by dnld on 01/04/16.
- */
 public class BlackWhiteListActivity extends SharedMediaActivity {
 
     public static final String EXTRA_TYPE = "typeExcluded";

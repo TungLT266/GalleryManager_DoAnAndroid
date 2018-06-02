@@ -27,9 +27,6 @@ import org.horaapps.liz.ThemedActivity;
 
 import java.util.List;
 
-/**
- * Created by Jibo on 02/03/2016.
- */
 public class PaletteActivity extends ThemedActivity {
 
     private Toolbar toolbar;

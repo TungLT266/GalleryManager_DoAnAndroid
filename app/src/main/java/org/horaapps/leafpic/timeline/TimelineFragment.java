@@ -39,9 +39,6 @@ import butterknife.ButterKnife;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Fragment which shows the Timeline.
- */
 public class TimelineFragment extends BaseFragment {
 
     public static final String TAG = "TimelineFragment";

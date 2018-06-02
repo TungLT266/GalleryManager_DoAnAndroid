@@ -22,11 +22,6 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-
-/**
- * Created by dnld on 14/08/16.
- */
-
 class MetaDataItem {
 
     private static final String TAG = "MetaData";

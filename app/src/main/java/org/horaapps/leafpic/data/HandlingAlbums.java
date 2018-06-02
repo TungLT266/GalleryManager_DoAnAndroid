@@ -15,9 +15,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-/**
- * Created by dnld on 27/04/16.
- */
 public class HandlingAlbums extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 12;

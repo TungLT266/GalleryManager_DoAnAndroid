@@ -22,10 +22,6 @@ import org.horaapps.leafpic.R;
 
 import java.util.List;
 
-/**
- * Created by dnld on 12/6/16.
- */
-
 public final class CustomExoPlayerView extends FrameLayout {
 
     private final View surfaceView;

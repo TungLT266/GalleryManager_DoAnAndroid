@@ -15,9 +15,6 @@ import java.io.File;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- * Created by dnld on 26/04/16.
- */
 public class Album implements CursorHandler, Parcelable {
 
 	public static final long ALL_MEDIA_ALBUM_ID = 8000;

@@ -39,11 +39,6 @@ import java.util.stream.Collectors;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Adapter used to display Media Items.
- *
- * TODO: This class needs a major cleanup. Remove code from onBindViewHolder!
- */
 public class MediaAdapter extends ThemedAdapter<MediaAdapter.ViewHolder> {
 
     private final ArrayList<Media> media;

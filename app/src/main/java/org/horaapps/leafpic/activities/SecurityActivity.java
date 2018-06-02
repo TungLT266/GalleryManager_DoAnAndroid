@@ -25,9 +25,6 @@ import org.horaapps.liz.ThemeHelper;
 import org.horaapps.liz.ThemedActivity;
 import org.horaapps.liz.ui.ThemedIcon;
 
-/**
- * Created by dnld on 22/05/16.
- */
 public class SecurityActivity extends ThemedActivity {
 
     private Toolbar toolbar;

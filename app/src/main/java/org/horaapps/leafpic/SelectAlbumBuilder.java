@@ -1,9 +1,5 @@
 package org.horaapps.leafpic;
 
-/**
- * Created by Jibo on 18/04/2016.
- */
-
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;

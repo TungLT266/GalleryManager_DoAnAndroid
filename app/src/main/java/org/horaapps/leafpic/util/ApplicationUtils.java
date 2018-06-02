@@ -5,9 +5,6 @@ import android.support.annotation.NonNull;
 
 import org.horaapps.leafpic.BuildConfig;
 
-/**
- * Data class for holding Application-related data.
- */
 public class ApplicationUtils {
 
     private static String PACKAGE_NAME;

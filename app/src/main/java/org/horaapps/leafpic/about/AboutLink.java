@@ -23,9 +23,6 @@ import org.horaapps.liz.ui.ThemedIcon;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Links to show in the About screen.
- */
 public class AboutLink extends RelativeLayout implements Themed {
 
     @BindView(R.id.about_link_icon) ThemedIcon linkIcon;

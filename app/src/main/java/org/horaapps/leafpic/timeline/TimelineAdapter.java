@@ -31,9 +31,6 @@ import static org.horaapps.leafpic.timeline.ViewHolder.TimelineHeaderViewHolder;
 import static org.horaapps.leafpic.timeline.ViewHolder.TimelineMediaViewHolder;
 import static org.horaapps.leafpic.timeline.ViewHolder.TimelineViewHolder;
 
-/**
- * Adapter for showing Timeline.
- */
 public class TimelineAdapter extends ThemedAdapter<TimelineViewHolder> {
 
     private List<TimelineItem> timelineItems;

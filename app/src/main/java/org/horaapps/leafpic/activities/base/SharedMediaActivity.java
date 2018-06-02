@@ -10,10 +10,6 @@ import org.horaapps.leafpic.R;
 import org.horaapps.leafpic.data.StorageHelper;
 import org.horaapps.leafpic.util.AlertDialogsHelper;
 
-/**
- * Created by dnld on 03/08/16.
- */
-
 public abstract class SharedMediaActivity extends BaseActivity {
 
     private int REQUEST_CODE_SD_CARD_PERMISSIONS = 42;

@@ -4,9 +4,6 @@ import org.horaapps.leafpic.CardViewStyle;
 import org.horaapps.leafpic.data.sort.SortingMode;
 import org.horaapps.leafpic.data.sort.SortingOrder;
 
-/**
- * Class for storing Preference default values.
- */
 public final class Defaults {
 
     // Prevent class instantiation

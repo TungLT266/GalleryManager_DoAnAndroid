@@ -9,9 +9,6 @@ import org.horaapps.leafpic.data.Media;
 import org.horaapps.liz.ThemeHelper;
 import org.horaapps.liz.ThemedFragment;
 
-/**
- * A Base Fragment for showing Media.
- */
 public abstract class BaseMediaFragment extends ThemedFragment {
 
     private static final String ARGS_MEDIA = "args_media";

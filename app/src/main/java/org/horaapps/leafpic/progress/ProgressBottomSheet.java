@@ -33,10 +33,6 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.exceptions.CompositeException;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Created by dnld on 11/03/18.
- */
-
 public class ProgressBottomSheet<T> extends BottomSheetDialogFragment {
 
 

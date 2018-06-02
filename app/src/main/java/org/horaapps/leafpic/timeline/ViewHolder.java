@@ -25,9 +25,6 @@ import org.horaapps.liz.ui.ThemedIcon;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Class for holding the RecyclerView ViewHolders to be used in Timeline.
- */
 public class ViewHolder {
 
     static abstract class TimelineViewHolder extends ThemedViewHolder {

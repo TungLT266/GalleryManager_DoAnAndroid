@@ -28,9 +28,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Custom view for showing a Developer on About screen.
- */
 public class AboutCreator extends RelativeLayout implements Themed {
 
     @BindView(R.id.developer_header_image) ImageView headerImage;

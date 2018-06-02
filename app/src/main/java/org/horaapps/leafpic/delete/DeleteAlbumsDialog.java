@@ -26,10 +26,6 @@ import org.horaapps.liz.ThemedAlertDialogBuilder;
 import java.io.File;
 import java.util.ArrayList;
 
-/**
- * Created by dnld on 6/29/17.
- */
-
 @Deprecated
 public class DeleteAlbumsDialog extends DialogFragment {
 

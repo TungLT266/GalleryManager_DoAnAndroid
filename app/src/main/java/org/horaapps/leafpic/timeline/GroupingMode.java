@@ -6,15 +6,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
-/**
- * Grouping for Timeline items.
- */
 public enum GroupingMode {
 
-    /**
-     * Group the Timeline items by DAY.
-     * eg: All media taken on 23rd October, 1994
-     */
     DAY {
         @Override
         public boolean isInGroup(@NonNull Calendar left, @NonNull Calendar right) {

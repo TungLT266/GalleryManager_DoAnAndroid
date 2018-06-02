@@ -70,9 +70,6 @@ import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVI
 //import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NAVIGATION_ITEM_WALLPAPERS;
 import static org.horaapps.leafpic.views.navigation_drawer.NavigationDrawer.NavigationItem;
 
-/**
- * The Main Activity used to display Albums / Media.
- */
 public class MainActivity extends SharedMediaActivity implements
         MediaClickListener, AlbumsFragment.AlbumClickListener,
         NothingToShowListener, EditModeListener, ItemListener {

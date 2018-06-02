@@ -53,10 +53,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 import jp.wasabeef.recyclerview.animators.LandingAnimator;
 
-/**
- * Created by dnld on 3/13/17.
- */
-
 public class AlbumsFragment extends BaseFragment {
 
     public static final String TAG = "AlbumsFragment";

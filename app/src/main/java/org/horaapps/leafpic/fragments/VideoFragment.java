@@ -23,9 +23,6 @@ import org.horaapps.liz.ui.ThemedIcon;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * A Media Fragment for showing a Video Preview.
- */
 public class VideoFragment extends BaseMediaFragment {
 
     @BindView(R.id.media_view) ImageView previewView;

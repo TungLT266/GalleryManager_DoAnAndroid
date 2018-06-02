@@ -36,9 +36,6 @@ import java.util.HashSet;
 
 import static org.horaapps.leafpic.data.MediaHelper.scanFile;
 
-/**
- * Created by dnld on 26/05/16.
- */
 public class StorageHelper {
 
 	private static final String TAG = "StorageHelper";

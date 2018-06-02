@@ -7,11 +7,6 @@ import org.horaapps.leafpic.data.CursorHandler;
 
 import io.reactivex.Observable;
 
-
-/**
- * Created by dnld on 3/13/17.
- */
-
 public class QueryUtils {
 
     public static <T> Observable<T> query(Query q, ContentResolver cr, CursorHandler<T> ch) {

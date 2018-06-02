@@ -15,10 +15,6 @@ import org.horaapps.leafpic.util.StringUtils;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by dnld on 4/10/17.
- */
-
 public class MetadataHelper {
 
     public MediaDetailsMap<String, String> getMainDetails(Context context, Media m){

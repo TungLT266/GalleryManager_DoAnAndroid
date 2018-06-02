@@ -22,9 +22,6 @@ import org.horaapps.liz.ui.ThemedIcon;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by darken (darken@darken.eu) on 04.03.2017.
- */
 public class SettingWithSwitchView extends FrameLayout implements View.OnClickListener, Themed {
     private final String iconString;
     private final String preferenceKey;

@@ -7,10 +7,6 @@ import org.horaapps.leafpic.SecretConstants;
 // needed for Local.US
 import java.util.Locale;
 
-/**
- * Created by dnld on 04/09/16.
- */
-
 public enum StaticMapProvider {
 
   GOOGLE_MAPS(0), MAP_BOX(1), MAP_BOX_DARK(2), MAP_BOX_LIGHT(3), TYLER(4);

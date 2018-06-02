@@ -11,9 +11,6 @@ import org.horaapps.leafpic.R;
 import static android.content.Context.FINGERPRINT_SERVICE;
 import static android.content.Context.KEYGUARD_SERVICE;
 
-/**
- * Created by gilbert on 24/03/2017.
- */
 
 public class FingerPrint {
 

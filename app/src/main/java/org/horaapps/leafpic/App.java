@@ -12,9 +12,6 @@ import com.squareup.leakcanary.LeakCanary;
 import org.horaapps.leafpic.util.ApplicationUtils;
 import org.horaapps.leafpic.util.preferences.Prefs;
 
-/**
- * Created by dnld on 28/04/16.
- */
 public class App extends Application {
 
     private static App mInstance;

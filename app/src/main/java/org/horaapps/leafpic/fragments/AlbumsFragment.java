@@ -238,7 +238,7 @@ public class AlbumsFragment extends BaseFragment {
                 case SIZE:  menu.findItem(R.id.size_sort_mode).setChecked(true); break;
                 case DATE: default:
                     menu.findItem(R.id.date_taken_sort_mode).setChecked(true); break;
-                case NUMERIC:  menu.findItem(R.id.numeric_sort_mode).setChecked(true); break;
+//                case NUMERIC:  menu.findItem(R.id.numeric_sort_mode).setChecked(true); break;
             }
         }
 
@@ -342,11 +342,11 @@ public class AlbumsFragment extends BaseFragment {
                 item.setChecked(true);
                 return true;
 
-            case R.id.numeric_sort_mode:
-                adapter.changeSortingMode(SortingMode.NUMERIC);
-                AlbumsHelper.setSortingMode(SortingMode.NUMERIC);
-                item.setChecked(true);
-                return true;
+//            case R.id.numeric_sort_mode:
+//                adapter.changeSortingMode(SortingMode.NUMERIC);
+//                AlbumsHelper.setSortingMode(SortingMode.NUMERIC);
+//                item.setChecked(true);
+//                return true;
 
             case R.id.ascending_sort_order:
                 item.setChecked(!item.isChecked());
